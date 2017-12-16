@@ -18,13 +18,13 @@
 #include "hurst.h"
 #include "fft.h"
 
-#define CHANNELS 4
-#define DATAPOINTS 64
+#define CHANNELS 23
+#define DATAPOINTS 256
 #define FEATURE_LENGTH 14
 #define FS 100
 
 #ifndef NUM_THREADS
-#pragma warn "NUM_THREADS not defined. Defaulting to 1 thread."
+#pragma warning "NUM_THREADS not defined. Defaulting to 1 thread."
 #define NUM_THREADS 1
 #endif
 

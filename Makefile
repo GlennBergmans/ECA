@@ -7,4 +7,4 @@ native:
 	gcc -Wall -DNUM_THREADS=$(NUM_THREADS) -fopenmp C/*.c -lc -lm -o eeg
 
 clean:
-	rm eeg.arm eeg
+	rm -f eeg.arm eeg
